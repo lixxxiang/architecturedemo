@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/task_detail_fragment_dest">
+    app:startDestination="@id/tasks_fragment_dest">
     <fragment
         android:name="com.android.cgwx.architecture_demo.taskdetail.TaskDetailFragment"
         android:id="@+id/task_detail_fragment_dest">
@@ -10,4 +10,7 @@
     <fragment
         android:name="com.android.cgwx.architecture_demo.statics.StaticsFragment"
         android:id="@+id/statics_fragment_dest"></fragment>
+    <fragment
+        android:name="com.android.cgwx.architecture_demo.tasks.TasksFragment"
+        android:id="@+id/tasks_fragment_dest"></fragment>
 </navigation>
