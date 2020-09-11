@@ -23,7 +23,7 @@ class TasksActivity : AppCompatActivity() {
         }
 
         appBarConfiguration =
-            AppBarConfiguration.Builder(R.id.tasks_fragment_dest, R.id.statics_fragment_dest)
+            AppBarConfiguration.Builder(R.id.tasks_fragment_dest, R.id.statistics_fragment_dest)
                 .setDrawerLayout(drawer_layout)
                 .build()
         setupActionBarWithNavController(
